@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Записване на час</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-primary">
+<div class="container-fluid justify-content-center text-center ">
+<ul class="navbar-nav fs-6 align-center ">
+        <li class="nav-item">
+          <a class="nav-link bi bi-telephone-fill fw-bold text-white mx-3" href="#">  +359 2 987 65433</a>
+        </li>
+      
+        <li class="nav-item">
+          <a class="nav-link bi bi-chat-dots-fill fw-bold text-white mx-3" href="#">  +359  3987 65433</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-white mx-3" href="#"> info@happypaws.com</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link fw-bold text-white  mx-3" target="_blank" href="https://maps.app.goo.gl/bxwtLwnNZSRf5WTL8"> Варна 9002  бул. "Княз Борис I" № 77</a>
+        </li>
+
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link fw-bold text-white  bi bi-facebook " target="_blank" href="https://www.facebook.com"></a>
+        </li>
+
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link fw-bold text-white  bi bi-instagram " target="_blank" href="https://www.instagram.com"></a>
+        </li>
+
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link fw-bold text-white text-md-center bi bi-google " target="_blank" href="https://maps.app.goo.gl/bxwtLwnNZSRf5WTL8"></a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid justify-content-center ">
+    
+    <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <ul class="navbar-nav  ">
+        <li class="navbar-brand ">
+          <a class="nav-link" href="index.html">
+            <img src="assets/images/logo.png" width="250">
+          </a>
+        </li>
+
+    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+      <ul class="navbar-nav fs-4 ">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Начало</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="aboutUs.html">За Нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="ourTeam.html">Екип</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Услуги
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="health.html">Профилактика и Здраве</a></li>
+            <li><a class="dropdown-item" href="emergency.html">Спешна Помощ</a></li>
+            <li><a class="dropdown-item" href="treatment.html">Лечение и Терапии</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="priceList.html">Ценоразпис</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactUs">Контакти</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-5 mb-4 text-center text-lg-start">
+    <div class="row justify-content-start">
+        <div class="col-12"> 
+            <div class="p display-5 fw-bold mb-4 text-primary">
+                Записване на Час
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-light mb-5">
+        <div class="card-body">
+        <form>
+            <div class="p display-6 fw-bold mb-4 text-success">Собственик</div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="nameForm" class="form-label fs-4">Име и Фамилия</label>
+                    <input type="text" class="form-control form-control-lg" id="nameForm" required>
+                </div>
+
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="phoneForm" class="form-label fs-4">Телефонен Номер</label>
+                    <input type="tel" class="form-control form-control-lg" id="phoneForm" required>
+                </div>
+
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="emailForm" class="form-label fs-4">Имейл Адрес</label>
+                    <input type="email" class="form-control form-control-lg" id="emailForm" required>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-primary-subtle mb-5">
+        <div class="card-body">
+            <div class="p display-6 fw-bold mb-4 text-success">Пациент</div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="nameAnimalForm" class="form-label fs-4">Име на Животното</label>
+                    <input type="text" class="form-control form-control-lg" id="nameAnimalForm" required>
+                </div>
+
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="selectAnimal" class="form-label fs-4">Вид на Животното</label>
+                    <select class="form-select form-select-lg" id="selectAnimal" required>
+                        <option value="" selected disabled>Изберете Вид</option>
+                        <option value="1">Куче</option>
+                        <option value="2">Котка</option>
+                        <option value="3">Хамстер / Морско Свинче</option>
+                        <option value="4">Заек</option>
+                        <option value="5">Папагал / Птица</option>
+                    </select>
+                </div>
+
+                <div class="col-12 col-md-4 mb-2 mt-2">
+                    <label for="ageAnimal" class="form-label fs-4">Възраст</label>
+                    <input type="number" class="form-control form-control-lg" id="ageAnimal" max="30" min="0">
+                </div>
+                
+                <div class="col-12 col-md-8 mb-2 mt-2">
+                    <label for="breedAnimal" class="form-label fs-4">Порода (По желание)</label>
+                    <input type="text" class="form-control form-control-lg" id="breedAnimal">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card bg-light mb-5">
+        <div class="card-body">
+            <div class="p display-6 fw-bold mb-4 text-success">Час и Причина</div>
+            
+            <div class="row">
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="dateAppointment" class="form-label fs-4">Желана Дата</label>
+                    <input type="date" class="form-control form-control-lg" id="dateAppointment" required>
+                </div>
+                
+                <div class="col-12 col-md-6 mb-2 mt-2">
+                    <label for="timeAppointment" class="form-label fs-4">Желан Час</label>
+                    <input type="time" class="form-control form-control-lg" id="timeAppointment" required>
+                </div>
+
+                <div class="col-12 mb-2 mt-2">
+                    <label for="serviceType" class="form-label fs-4">Тип Услуга / Причина за посещение</label>
+                    <select class="form-select form-select-lg" id="serviceType" required>
+                        <option value="" selected disabled>Изберете най-подходящата опция</option>
+                        <option value="1">Годишен Профилактичен Преглед / Ваксинация</option>
+                        <option value="2">Първичен Преглед (Болно Животно)</option>
+                        <option value="3">Контролен Преглед</option>
+                        <option value="4">Консултация (Дерматолог / Хирург)</option>
+                        <option value="5">Почистване на Зъбен Камък</option>
+                        <option value="6">Друго</option>
+                    </select>
+                </div>
+
+                <div class="col-12 mb-2 mt-2">
+                    <label for="descriptionProblem" class="form-label fs-4">Кратко описание на проблема (задължително)</label>
+                    <textarea class="form-control" id="descriptionProblem" rows="4" required placeholder="Опишете накратко симптомите, които Ви тревожат."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row justify-content-center">
+        <div class="col-12 mb-2 mt-2">
+            <div class="form-check fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="Check" required>
+                <label class="form-check-label">
+                    Запознат/а съм с Политиката за поверителност и давам съгласието си личните ми данни да бъдат обработвани.
+                </label>
+            </div>
+        </div>
+        
+        <div class="col-12 mt-4 text-center ">
+            <button type="submit" class="btn btn-success btn-lg fs-3 fw-bold">ИЗПРАТИ</button>
+        </div>
+    </div>
+</div></form>
+
+ <div class="row justify-content-center">
+ <div class="col-4"> 
+<img src="assets/images/footer.png" class="img-fluid">
+</div></div></div>
+</div>
+
+
+
+<section id="contactUs">
+<div class="container-fluid bg-primary"">
+ <div class="row justify-content-center">
+ <div class="col-12 col-lg-9"> 
+ <div class="row">
+
+<div class="col-12 col-lg-7 mt-5">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.0206123744692!2d27.923600999999994!3d43.20905700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4540939dfa6d5%3A0x3d401ef3c09a59bf!2sUniversity%20of%20Economics%20%E2%80%93%20Varna!5e0!3m2!1sen!2sbg!4v1764978863426!5m2!1sen!2sbg" width="100%" height="450" style="border:1;" allowfullscreen="" loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+ </iframe>
+</div>
+<div class="col-12 col-lg-5 mt-5 text-center text-lg-start flex-column align-items-center justify-content-center">
+<a class="nav-link" href="index.html">
+<img src="assets/images/logo.png" width="400px">
+</a>
+<div class="p fs-4 px-lg-3 text-white mb-2"> 
+Варна 9002 бул. "Княз Борис I" № 77
+</div> 
+                    
+<div class="bi bi-telephone-fill fw-bold  text-white mx-3 fs-4 mb-2"> 
++359 2 987 65433
+</div> 
+                    
+<div class="bi bi-chat-dots-fill fw-bold text-white mx-3 fs-4"> 
++359 3987 65433
+</div> 
+                    
+
+          <div class="col-12 col-lg-8 mt-5 text-lg-start text-center flex-column align-items-center justify-content-center">
+           <div class="p fs-3 px-lg-3 text-white mb-2">Работно време:
+            </div>
+           <div class="p fs-4 fw-bold px-lg-3 text-white mb-2">Понеделник-петък: 8:00-20:00 ч. 
+        </div>
+         <div class="p fs-4 px-lg-3 fw-bold text-white mb-5">Събота и неделя: почивни дни 
+</div>
+    </div>
+</div>
+</div>
+<div class="row text-center">
+<i class="bi bi-bootstrap text-white mb-3"> Copyright 2025. Powered by Bootstrap. All rights reserved</i>
+</div>
+</div></div></div></section>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+</body>
+</html>
